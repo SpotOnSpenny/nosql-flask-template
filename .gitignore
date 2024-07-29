@@ -1,0 +1,14 @@
+env
+__pycache__
+*.py[cod]
+.env
+.flaskenv
+.venv
+app/data/*.db
+app/data/*.sqlite
+app/data/*.sqlitedb
+app/static/assets
+app/static/.webassets-cache
+dump.rdb
+wsgi.py
+logs

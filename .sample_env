@@ -1,0 +1,14 @@
+#Flask app locator
+FLASK_APP=App/__init__.py
+
+# Flask app config variables
+SECRET_KEY= Fill this in with any spaceless phrase/word/random string
+FLASK_ENV= Either development or prod
+SERVER_NAME=localhost:5000 if development, otherwise URL name
+
+# Database initiatiion variables
+DB_URI= DB Connection URI from mongo
+DB_PASSWORD = Password for the DB user NOT the mongo account
+
+# Log file vars
+LOG_LEVEL=INFO or Debug or Warning etc.
